@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    cout << "Hello";
+    cout << "World";
     return 0;
 }
