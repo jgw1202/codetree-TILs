@@ -8,7 +8,7 @@ int main() {
     c = b;
     a = c;
     cout << a << endl;
-    cout << b << endll
+    cout << b << endl;
     cout << c;
     return 0;
 }
