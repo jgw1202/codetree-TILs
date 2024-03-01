@@ -7,8 +7,8 @@ int main() {
     b = a;
     c = b;
     a = c;
-    cout << a << endl;
-    cout << b << endl;
+    cout << a << "\n";
+    cout << b << "\n";
     cout << c;
     return 0;
 }
