@@ -15,7 +15,7 @@ int main() {
 
 	int a, n;
 	cin >> a >> n;
-	if (a < 0) cout << 0;
+	if (a <= 0) cout << 0;
 	else {
 		for (int i = 0; i < n; i++) {
 			cout << a;
