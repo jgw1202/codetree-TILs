@@ -18,7 +18,7 @@ int main() {
 
 	int cnt = 0;
 	if (n % 2 == 0) {
-		while (n>=1000) {
+		while (true) {
 			cnt++;
 			if (n >= 1000) break;
 			n = n * 3 + 1;
