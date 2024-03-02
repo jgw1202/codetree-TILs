@@ -24,6 +24,8 @@ int main() {
 		sum += n;
 		cnt++;
 	}
+	cout << fixed;
+	cout.precision(2);
 	cout << sum / cnt;
 	return 0;
 }
