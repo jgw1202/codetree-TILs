@@ -18,7 +18,7 @@ int main() {
 	while (true) {
 		int n;
 		cin >> n;
-		if (n < 20 && n > 29) {
+		if (n < 20 || n > 29) {
 			break;
 		}
 		sum += n;
