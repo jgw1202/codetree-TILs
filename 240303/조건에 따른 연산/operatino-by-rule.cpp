@@ -18,14 +18,16 @@ int main() {
 
 	int cnt = 0;
 	if (n % 2 == 0) {
-		while (n <= 1000) {
+		while (n>=1000) {
 			cnt++;
+			if (n >= 1000) break;
 			n = n * 3 + 1;
 		}
 	}
 	else {
-		while (n <= 1000) {
+		while (true) {
 			cnt++;
+			if (n >= 1000) break;
 			n = n * 2 + 2;
 		}
 	}
