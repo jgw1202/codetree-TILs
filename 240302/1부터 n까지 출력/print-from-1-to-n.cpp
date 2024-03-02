@@ -14,7 +14,7 @@ int main() {
 	cin.tie(0);
 
 	int n;
-    for(int i=0; i<n; i++) {
+    for(int i=1; i<=n; i++) {
         cout << i << " ";
     }
 	return 0;
