@@ -16,9 +16,12 @@ int main() {
 	int a, n;
 	cin >> a >> n;
 	if (a < 0) cout << 0;
-	for (int i = 0; i < n; i++) {
-		cout << a;
+	else {
+		for (int i = 0; i < n; i++) {
+			cout << a;
+		}
 	}
+	
 
 	return 0;
 }
