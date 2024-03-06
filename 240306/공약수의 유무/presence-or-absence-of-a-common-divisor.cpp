@@ -18,7 +18,7 @@ int main() {
 
 
     for (int i = a; i <= b; ++i) {
-        if (i % common_divisor == 0 && common_divisor != 1) { 
+        if (i % common_divisor > 1 && common_divisor != 1) { 
             common_divisor_exists = true;
             break;
         }
