@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int gcd(int a, int b) {
@@ -6,19 +7,25 @@ int gcd(int a, int b) {
         return a;
     return gcd(b, a % b);
 }
+
 int main() {
     int a, b;
     cin >> a >> b;
 
-    bool found = false;
+    bool common_divisor_exists = false;
+
+    int common_divisor = gcd(1920, 2880);
+
+
     for (int i = a; i <= b; ++i) {
-        if (gcd(i, 1920) != 1 && gcd(i, 2880) != 1) {
-            found = true;
+        if (i % common_divisor == 0 && common_divisor != 1) { 
+            common_divisor_exists = true;
             break;
         }
     }
 
-    if (found) {
+
+    if (common_divisor_exists) {
         cout << 1 << endl;
     } else {
         cout << 0 << endl;
